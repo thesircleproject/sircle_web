@@ -1,6 +1,6 @@
 export default function SearchResultDetails(
     {params : {id},} : {params : {id : string};}
     ){
-    return <h1> Searchresult {id} </h1>
+    return <h1> 검색 결과 {id} </h1>
     
 }

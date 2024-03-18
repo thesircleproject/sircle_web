@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import '../globals.css'
 
 export const metadata: Metadata = {
@@ -8,13 +9,15 @@ export const metadata: Metadata = {
 
 export default function HomeDetails(){
   return (
-    <div className="grid grid-cols-2 top-4 left-0 right-0">
-      <h1 className="flex mt-10 items-center px-4 font-bold text-xl">   
-        Sircle
-      </h1>
-      <h1 className="flex mt-10 justify-end px-4 font-bold">
-        +
-      </h1>
+    <div className="flex flex-row items-center justify-between w=auto h=auto p-4">
+      <div>
+      <Image alt="Sircle" src="/svgs/sircle_logo.svg" width={123} height={36} priority={true} />
+      </div>
+
+      <div>
+        <Image alt="Add Sircle" src="/svgs/add.svg" width={24} height={24} />
+      </div>
     </div>
+
   );
 }

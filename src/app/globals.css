@@ -8,21 +8,28 @@
   }
 }
 
+@font-face {
+  font-family: 'LINESeedKR-Bd';
+  src: url("/fonts/LINESeedKR-Bd.woff2") format('woff2');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'LINESeedKR-Rg';
+  src: url("/fonts/LINESeedKR-Rg.woff2") format('woff2');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'LINESeedKR-Th';
+  src: url("/fonts/LINESeedKR-Th.woff2") format('woff2');
+  font-weight: 100;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  --WAKTAVERSE-GAMES-key-colors-gray-1: rgba(5, 5, 5, 1);
-  --WAKTAVERSE-GAMES-key-colors-gray-2: rgba(21, 21, 21, 1);
-  --WAKTAVERSE-GAMES-key-colors-gray-3: rgba(128, 128, 128, 1);
-  --WAKTAVERSE-GAMES-key-colors-gray-4: rgba(190, 190, 190, 1);
-  --WAKTAVERSE-GAMES-key-colors-gray-5: rgba(250, 250, 250, 1);
-  --WAKTAVERSE-GAMES-key-colors-gray-6: rgba(255, 255, 255, 1);
-  --WAKTAVERSE-GAMES-key-colors-interaction-blue: rgba(40, 179, 251, 1);
-  --WAKTAVERSE-GAMES-key-colors-interaction-green: rgba(76, 217, 100, 1);
-  --WAKTAVERSE-GAMES-key-colors-interaction-red: rgba(255, 59, 48, 1);
-  --WAKTAVERSE-GAMES-key-colors-interaction-yellow: rgba(255, 192, 65, 1);
-  --WAKTAVERSE-GAMES-key-colors-primary-primary: rgba(0, 210, 177, 1);
 }
 
 @media (prefers-color-scheme: dark) {

@@ -8,7 +8,11 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title:{
     template:"%s // Sircle test",
-    default: "doesn't' exist metadata",
+    default: "Sircle Web",
+  },
+  description: "Sircle Web",
+  icons: {
+    icon: "/icon.png",
   },
 };
 
