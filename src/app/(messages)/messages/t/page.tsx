@@ -4,8 +4,8 @@ import Image from "next/image";
 
 export default function MessagesDetails(){
     return (
-        <div className="flex flex-col items-center gap-x-4">
-            <h1 className="font-title text-xl p-4">   
+        <div className="flex flex-col items-center py-4 space-y-4">
+            <h1 className="font-title text-xl">   
                 메시지
             </h1>
 
@@ -14,6 +14,67 @@ export default function MessagesDetails(){
                     <a>
                      <Image alt="Search" src="/svgs/search.svg" width={24} height={24} />
                     </a>
+            </div>
+
+            <div className="flex flex-col space-y-4">
+                <div className="flex flex-row items-start content-start w-96 h-18 p-4 rounded-button bg-IconBackgroundBlack hover:bg-inputStroke border-inputStroke ">
+               <Image alt="Profile" src="/icon.png" width={48} height={48} />
+               <div className="flex flex-col items-start content-start pl-4 gap-4">
+                <h1 className="font-title text-xl">   
+                    에이요
+                </h1>
+                <p>
+                    테스트 메시지입니다.
+                </p>
+                </div>
+                 </div>
+
+                <div className="flex flex-row items-start content-start w-96 h-18 p-4 rounded-button bg-IconBackgroundBlack hover:bg-inputStroke border-inputStroke ">
+                <Image alt="Profile" src="/icon.png" width={48} height={48} />
+                <div className="flex flex-col items-start content-start pl-4 gap-4">
+                    <h1 className="font-title text-xl">   
+                        에이요
+                    </h1>
+                    <p>
+                        테스트 메시지입니다.
+                    </p>
+                    </div>
+                </div>
+
+                <div className="flex flex-row items-start content-start w-96 h-18 p-4 rounded-button bg-IconBackgroundBlack hover:bg-inputStroke border-inputStroke ">
+                <Image alt="Profile" src="/icon.png" width={48} height={48} />
+                <div className="flex flex-col items-start content-start pl-4 gap-4">
+                    <h1 className="font-title text-xl">   
+                        에이요
+                    </h1>
+                    <p>
+                        테스트 메시지입니다.
+                    </p>
+                    </div>
+                </div>
+                <div className="flex flex-row items-start content-start w-96 h-18 p-4 rounded-button bg-IconBackgroundBlack hover:bg-inputStroke border-inputStroke ">
+                <Image alt="Profile" src="/icon.png" width={48} height={48} />
+                <div className="flex flex-col items-start content-start pl-4 gap-4">
+                    <h1 className="font-title text-xl">   
+                        에이요
+                    </h1>
+                    <p>
+                        테스트 메시지입니다.
+                    </p>
+                    </div>
+                </div>
+                <div className="flex flex-row items-start content-start w-96 h-18 p-4 rounded-button bg-IconBackgroundBlack hover:bg-inputStroke border-inputStroke ">
+                <Image alt="Profile" src="/icon.png" width={48} height={48} />
+                <div className="flex flex-col items-start content-start pl-4 gap-4">
+                    <h1 className="font-title text-xl">   
+                        에이요
+                    </h1>
+                    <p>
+                        테스트 메시지입니다.
+                    </p>
+                    </div>
+                </div>
+
             </div>
         </div>
     );
